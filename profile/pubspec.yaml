@@ -1,0 +1,27 @@
+name: profile
+description: Descripción de tu app.
+
+version: 0.1.0
+environment:
+  sdk: '>=3.0.0-204.0.dev <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  google_fonts: ^4.0.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/user_image2.jpg
+    - assets/images/foto11.jpg
+    - assets/images/foto12.jpg
+    - assets/images/foto13.jpg
+    - assets/images/foto1.jpg
+    
